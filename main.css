@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+.conteiner{
+    max-width: 1020px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    background-color: purple;
+    padding-top: 16px;
+    color: white;
+}
+
+header > .conteiner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+nav{
+    background-color: rgb(139, 81, 139);
+    padding: 16px 0;
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+    margin-right: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu-hamburger{
+    width: 32px;
+
+}
+
+.menu-hamburger span{
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    display: block;
+    margin-bottom: 4px;
+}
+
